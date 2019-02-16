@@ -14,4 +14,5 @@ describe "say_hello" do
 end
 
 def say_hello(name)
-  puts "Hello "
+  prints "Hello #{name}"
+end

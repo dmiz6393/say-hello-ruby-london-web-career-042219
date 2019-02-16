@@ -13,7 +13,7 @@ describe "say_hello" do
   end
 end
 
-def say_hello(name)
+def say_hello(name="Ruby Programmer!")
   puts "Hello #{name}!"
   "Hello #{name}!"
 end
